@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cesium": "^1.55.0",
+    "cesium-react": "^0.2.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
@@ -21,5 +23,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.0",
+    "html-webpack-include-assets-plugin": "^1.0.7"
+  }
 }
